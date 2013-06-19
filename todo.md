@@ -27,3 +27,14 @@
 # Next
 
 * Look at similar readme's
+
+Action: ExampleAction
+Description: should do something awesome
+Code:
+  - c: validate input
+  - c: set default id and values for new Thing entity
+  - c: create/populate Thing object
+    requires: Thing.populate
+  - c: save thing to jack
+    requires: ThingJack.save, Thing.to_hash
+  - c: return the result 

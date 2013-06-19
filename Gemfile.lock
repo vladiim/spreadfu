@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    obvious (0.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  obvious (~> 0.0.8)
